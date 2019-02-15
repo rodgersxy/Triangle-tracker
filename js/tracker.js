@@ -11,7 +11,7 @@ function display() {
   }else if (lengthX==lengthY || lengthY==lengthZ || lengthZ==lengthX ){
     alert ("this is an isosceles triangle");
   }else {
-    alert( "this is a scalene triangle"):
+    alert( "this is a scalene triangle");
   }
 }
 display();
