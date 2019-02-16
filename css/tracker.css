@@ -4,11 +4,16 @@ body{
 }
 .head{
   text-align: center;
-  color: #000205;
+  margin: 20px auto;
 }
 .h1{
   text-align: center;
 }
-p{
-  color: #ffffff;
+input {
+  padding: 10px;
+  font-size: inherent;
+  margin-bottom: 25px;
+  width: 50%;
+  border: 2px solid steelblue;
 }
+input[t
