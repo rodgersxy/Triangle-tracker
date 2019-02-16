@@ -2,11 +2,11 @@
 body{
   background: #a2b8db;
 }
-.form {
+.head{
   text-align: center;
-  position: absolute;
+  color: #000205;
 }
-.heading {
+.h1{
   text-align: center;
 }
 p{
