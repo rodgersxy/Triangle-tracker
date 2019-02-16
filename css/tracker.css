@@ -16,4 +16,28 @@ input {
   width: 50%;
   border: 2px solid steelblue;
 }
-input[t
+input[type="submit"] {
+  width: 340px;
+  height: 45px;
+  border: none;
+  background-color: steelblue;
+  color: white
+}
+.image{
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+  background: url(types.jpg);
+  animation: slide 20s infinite;
+}
+@keyframe slide{
+  25%{
+  background: url(types.jpg);
+  }
+  50%{
+    background: url(triangle.jpg);
+  }
+  75%{
+    background: url(types.jpg);
+  }
+}
